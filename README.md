@@ -1,30 +1,12 @@
 <div align="center">
 
 # 🪪 3D Interactive ID Card Portfolio
-
-### A modern, immersive, and interactive digital identity card built with React & Three.js
-
-
-<p>
-
-![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js)
-![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-3D-black?style=flat-square)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
-
-</p>
-
 </div>
 
----
 
-# 🪪 About 
+## 🪪 About 
 
-An immersive and interactive 3D digital ID card built using modern web technologies. Instead of a traditional portfolio website, this project presents personal and professional information through a realistic animated ID card experience.
+An immersive and interactive 3D digital ID card built using modern web technologies. Instead of a traditional portfolio website, this project presents personal and professional information through a realistic animated ID card experience which gets streched and played along if dragged.
 
 ## 🌐 Live Demo
 
@@ -73,11 +55,6 @@ Clone the repository:
 git clone https://github.com/Aaditya-Thk/id-3d.git
 ```
 
-Move into the project:
-
-```bash
-cd id-3d
-```
 
 Install dependencies:
 
