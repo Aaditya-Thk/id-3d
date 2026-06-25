@@ -1,0 +1,176 @@
+/* index.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 50% 20%, rgba(0,212,255,0.12), transparent 35%),
+    radial-gradient(circle at 80% 80%, rgba(80,80,255,0.08), transparent 40%),
+    linear-gradient(180deg, #101010 0%, #050505 50%, #000000 100%);
+
+  color: white;
+}
+.responsive-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  transform-origin: center;
+}
+
+/* =======================
+   Social Icons
+======================= */
+
+.socials {
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  z-index: 9999;
+}
+
+.socials a {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+  font-size: 22px;
+  text-decoration: none;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  transition: all 0.35s ease;
+}
+
+.socials a:hover {
+  color: #00d4ff;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  border-color: #00d4ff;
+
+  transform: translateY(-6px) scale(1.1);
+
+  box-shadow:
+    0 0 20px rgba(0, 212, 255, 0.35),
+    0 0 45px rgba(0, 212, 255, 0.15);
+}
+
+.socials a:active {
+  transform: scale(0.95);
+}.hero {
+  position: fixed;
+
+  left: 80px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  z-index: 1000;
+
+  max-width: 480px;
+}.hero {
+  position: fixed;
+  left: 90px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  max-width: 500px;
+  z-index: 999;
+}
+
+.hello {
+  color: rgba(255,255,255,.45);
+
+  font-size: 14px;
+  font-weight: 600;
+
+  letter-spacing: 6px;
+
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 0;
+
+  font-size: 78px;
+  line-height: .92;
+
+  font-weight: 800;
+
+  letter-spacing: -3px;
+}.hero h3 {
+  margin-top: 22px;
+
+  color: rgba(255,255,255,.62);
+
+  font-size: 17px;
+
+  font-weight: 300;
+
+  line-height: 1.6;
+
+  letter-spacing: 0.5px;
+
+  max-width: 380px;
+}.drag{
+
+    margin-top:55px;
+
+    color:rgba(255,255,255,.35);
+
+    font-size:11px;
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+
+    animation:drag 2s ease-in-out infinite;
+}
+
+@keyframes drag{
+
+0%,100%{
+transform:translateX(0);
+}
+
+50%{
+transform:translateX(-8px);
+}
+
+}.name-gradient{
+
+background:linear-gradient(
+180deg,
+#ffffff 0%,
+#6fdcff 35%,
+#00d4ff 70%,
+#008cff 100%
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+background-clip:text;
+
+}
